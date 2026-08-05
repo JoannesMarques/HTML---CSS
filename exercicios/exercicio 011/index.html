@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens em html5</title>
+</head>
+<body>
+    <h1>tente abri essas imagens em varios dispositivos, ou simplesmente mude o tamanho do seu navegador</h1>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/img_celular.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img_tablet.png" type="image/png">
+        <img src="imagens/img_TV.png" alt="imagem flexivel">
+    </picture>
+    <h1>aprendendo a colocar audio</h1>
+    <audio preload="metadata" autoplay>
+        <source src="midia/gemaplys.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador é um lixo em mermão, não tem nem mp3
+            <a href="midia/gemaplys.mp3">clique aqui para baixar o audio</a>
+        </p>
+    </audio>
+</body>
+</html>

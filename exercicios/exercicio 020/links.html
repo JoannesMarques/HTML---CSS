@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            
+        }
+        a {
+            color: rgb(212, 100, 100);
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(148, 13, 13);
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        .especial {
+            background-color: rgb(223, 155, 155);
+        }
+        a:active {color: yellow;}
+        .especial::before {
+            content: 'X';
+            text-decoration: none;
+            font-family: none;
+            color: rgb(219, 175, 175);
+        }
+        
+        .especial::after {
+            content: 'X';
+            text-decoration: none;
+            font-family: none;
+            color: rgb(219, 175, 175);
+        }
+    </style>
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <li><a href="https://www.youtube.com">youtube</a></li>
+    <li><a href="https://chatgpt.com/c/6a4881bf-1eb8-83e9-b78f-d5dd23d065b8?mweb_fallback=1" class="especial">chatGPT</a></li>
+    <li><a href="https://www.reddit.com">reddit</a></li>
+</body>
+</html>
